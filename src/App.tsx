@@ -1,5 +1,3 @@
-import { ChangeEvent, useCallback, useEffect, useMemo, useState } from 'react'
-import logo from './assets/tools.png'
 import { DownloadButton } from './components/DownloadButton'
 import { ExampleTable } from './components/ExampleTable'
 import { ProgressBar } from './components/ProgressBar'
@@ -18,7 +16,7 @@ export function App() {
     return (
         <div className='flex flex-col gap-10 items-center justify-center content-center h-full w-full '>
             <div className='flex flex-col items-center gap-5 p-5'>
-                <img src={logo} alt='App logo' className='w-40 h-40' />
+                <img src='./tools.png' alt='App logo' className='w-40 h-40' />
 
                 <p className='text-xl'>
                     Olá, bem-vindo, converta arquivos TXT estruturado para JSON
