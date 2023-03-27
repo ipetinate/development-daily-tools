@@ -56,6 +56,30 @@ export function App() {
                     </div>
                 </div>
             </div>
+
+            <div className='flex flex-col gap-5 items-center justify-center'>
+                <a
+                    href='https://github.com/ipetinate/convert-txt-to-json'
+                    target='_blank'
+                >
+                    <img
+                        src='./github.svg'
+                        alt='Github logo'
+                        className='h-14 w-14'
+                    />
+                </a>
+
+                <p>
+                    Made with 💜 by{' '}
+                    <a
+                        target='_blank'
+                        className='text-cyan-300 underline'
+                        href='https://github.com/ipetinate'
+                    >
+                        Isac Petinate
+                    </a>
+                </p>
+            </div>
         </div>
     )
 }
