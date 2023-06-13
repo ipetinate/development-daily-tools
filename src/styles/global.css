@@ -1,4 +1,6 @@
-body {
-    @apply h-screen w-screen;
-    @apply bg-slate-900 text-violet-400;
+html,
+body,
+#root {
+  @apply h-screen w-screen;
+  @apply bg-slate-900 text-violet-400;
 }
